@@ -1,0 +1,43 @@
+button {
+  width: 65px;
+  height: 65px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 1.5em;
+  background-color:rgb(240, 121, 212);
+  color: white;
+  font-family:'Josefin Sans', sans-serif;
+  
+
+
+  border: none;
+  border-radius: 50%;
+
+  box-shadow: 0px 0px 5px 0px grey;
+}
+
+button:focus {outline:0;}
+
+.clearButton {
+  width: 215px;
+  border-radius: 15px;
+}
+
+.zeroButton {
+  width: 140px;
+  border-radius: 15px;
+}
+
+.operatorButton {
+  background-color:rgb(249, 182, 233);
+  color: white;
+}
+
+button:hover {
+  background-color:rgb(206, 105, 183);
+}
+
+.operatorButton:hover {
+  background-color:rgb(227, 168, 213);
+}
